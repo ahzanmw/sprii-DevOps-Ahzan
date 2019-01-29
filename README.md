@@ -6,14 +6,14 @@
 
 # Docker Build Command
 
-  sudo docker build -t <yourImagename> .
+  sudo docker build -t lumenapp .
 
 # Docker Run Command
 
-  sudo docker run -it -p 80:80 -d <yourImagename>
+  sudo docker run -it -p 80:80 -d lumenapp
 
 # Browse your Application
-  http://yourhost:80/
+  http://yourhost/
   
   
   Sample test link: http://ec2-13-229-201-50.ap-southeast-1.compute.amazonaws.com/
