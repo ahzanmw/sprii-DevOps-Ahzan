@@ -1,16 +1,16 @@
 # Sprii-DevOps-Lumen Dockerfile
 
-# Clone the Dockerfile from the repository
+# Clone Dockerfile from the repository
 
-git clone https://github.com/ahzanmw/sprii-DevOps-Ahzan.git
+  git clone https://github.com/ahzanmw/sprii-DevOps-Ahzan.git
 
 # Docker Build Command
 
-sudo docker build -t <yourImagename> .
+  sudo docker build -t <yourImagename> .
 
 # Docker Run Command
 
-sudo docker run -it -p 80:80 -d <yourImagename>
+  sudo docker run -it -p 80:80 -d <yourImagename>
 
 # Browse your Application
-http://yourhost/
+  http://yourhost/
