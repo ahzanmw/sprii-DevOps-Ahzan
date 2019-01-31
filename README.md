@@ -15,5 +15,3 @@
 # Browse your Application
   http://yourhost/
   
-  
-  Sample test link: http://ec2-13-229-201-50.ap-southeast-1.compute.amazonaws.com/
