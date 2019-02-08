@@ -14,11 +14,11 @@ services:
       - '3306:3306'
     expose:
       - '3306'
-    #Docker volume "my-database" will create and Mounted 
+    #Docker volume "my-database" will be create 
     volumes: 
       - my-database:/var/lib/mysql
       
-   # To mount Host path directly 
+   # If you want to To mount Host path  / NFS directly 
    #volumes: 
    #   - /var/lib/mysqldatabase:/var/lib/mysql
    
